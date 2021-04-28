@@ -4,6 +4,7 @@ module.exports = {
       },
     pluginOptions: {
         electronBuilder: {
+            preload: "src/preload.js",
             builderOptions: {
                 // options placed here will be merged with default configuration and passed to electron-builder
                 "appId": "tech.hoody.app",
@@ -42,9 +43,11 @@ module.exports = {
                 }
             }
         },
+        // eslint-disable-next-line no-unused-vars
         chainWebpackMainProcess: (config) => {
             // Chain webpack config for electron main process only
         },
+        // eslint-disable-next-line no-unused-vars
         chainWebpackRendererProcess: (config) => {
             // Chain webpack config for electron renderer process only (won't be applied to web builds)
         },

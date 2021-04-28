@@ -15,7 +15,11 @@
   "main": "background.js",
   "dependencies": {
     "core-js": "^3.6.5",
+    "custom-electron-titlebar": "^3.2.6",
+    "electron-log": "^4.3.4",
     "element-plus": "^1.0.2-beta.28",
+    "fuse.js": "^6.4.6",
+    "nprogress": "^0.2.0",
     "vue": "^3.0.0",
     "vue-router": "^4.0.0-0",
     "vuex": "^4.0.0-0"
