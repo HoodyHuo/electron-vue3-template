@@ -30,7 +30,6 @@ module.exports = {
           allowToChangeInstallationDirectory: true,
           // installerIcon: "./app.png",
           // uninstallerIcon: './app.png',
-          // installerHeaderIon: './app.png',
           createDesktopShortcut: true,
           createStartMenuShortcut: true,
           shortcutName: 'App-Demo'
